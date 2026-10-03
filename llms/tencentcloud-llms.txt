@@ -1,0 +1,92 @@
+# Tencent Cloud
+
+> Tencent Cloud is a leading global cloud service provider offering comprehensive IaaS, PaaS, and SaaS solutions, leveraging Tencent's 20+ years of technology expertise in internet services.
+
+## About
+
+- **Founded**: 2010 (Cloud division of Tencent Holdings Ltd, est. 1998)
+- **Core domains**: Cloud Computing, AI, Big Data, Security, Video & Communication
+- **Public site**: https://www.tencentcloud.com
+- **Global Infrastructure**: 22 Regions, 65 Availability Zones, 3200+ CDN Nodes, 70+ Compliance Certifications
+
+## Key Products
+
+### Compute
+- [Cloud Virtual Machine (CVM)](https://www.tencentcloud.com/products/cvm): Secure, stable, and elastic cloud computing service
+- [Lighthouse](https://www.tencentcloud.com/products/lighthouse): Next-generation cloud server for SMBs and developers
+- [Cloud GPU Service](https://www.tencentcloud.com/products/gpu): High-performance GPU computing for AI/ML workloads
+- [Serverless Cloud Function (SCF)](https://www.tencentcloud.com/products/scf): Event-driven serverless computing platform
+
+### Storage
+- [Cloud Object Storage (COS)](https://www.tencentcloud.com/products/cos): Scalable, secure, and cost-effective object storage
+- [Cloud File Storage (CFS)](https://www.tencentcloud.com/products/cfs): Fully managed file storage service
+- [Cloud Block Storage (CBS)](https://www.tencentcloud.com/products/cbs): High-performance block storage for CVM
+
+### Database
+- [TencentDB for MySQL](https://www.tencentcloud.com/products/cdb): Fully managed MySQL database service
+- [TDSQL-C (Cloud Native Database)](https://www.tencentcloud.com/products/tdsqlc): Cloud-native MySQL/PostgreSQL compatible database
+- [TencentDB for MongoDB](https://www.tencentcloud.com/products/mongodb): Fully managed MongoDB service
+- [TencentDB for PostgreSQL](https://www.tencentcloud.com/products/postgres): Managed PostgreSQL database
+
+### Container & Middleware
+- [Tencent Kubernetes Engine (TKE)](https://www.tencentcloud.com/products/tke): Managed Kubernetes container service
+- [TDMQ for CKafka](https://www.tencentcloud.com/products/ckafka): Apache Kafka compatible messaging service
+
+### Networking & CDN
+- [Content Delivery Network (CDN)](https://www.tencentcloud.com/products/cdn): Global content acceleration network
+- [EdgeOne](https://www.tencentcloud.com/products/teo): Edge security and acceleration platform
+
+### Video & Communication
+- [Cloud Streaming Services (CSS)](https://www.tencentcloud.com/products/css): Live streaming service
+- [Video on Demand (VOD)](https://www.tencentcloud.com/products/vod): One-stop video processing and distribution
+- [Real-time Communication (TRTC)](https://www.tencentcloud.com/products/trtc): Low-latency audio/video communication
+- [Chat (IM)](https://www.tencentcloud.com/products/im): Instant messaging SDK and service
+
+### AI & Machine Learning
+- [Face Recognition](https://www.tencentcloud.com/products/facerecognition): AI-powered facial analysis and recognition
+- [OCR](https://www.tencentcloud.com/products/ocr): Optical character recognition service
+- [Machine Translation](https://www.tencentcloud.com/products/tmt): Neural machine translation
+- [Text to Speech (TTS)](https://www.tencentcloud.com/products/tts): AI voice synthesis
+
+### Communication Services
+- [Short Message Service (SMS)](https://www.tencentcloud.com/products/sms): Global SMS delivery platform
+- [Simple Email Service (SES)](https://www.tencentcloud.com/products/ses): Transactional email service
+
+## Solutions
+
+- [Gaming](https://www.tencentcloud.com/solutions/game): End-to-end cloud solutions for game development and deployment
+- [Audio & Video](https://www.tencentcloud.com/solutions/video): Comprehensive media processing and streaming solutions
+- [Interactive Live Streaming](https://www.tencentcloud.com/solutions/lvb): Real-time interactive broadcasting platform
+- [Online Education](https://www.tencentcloud.com/solutions/interactive-classroom): Cloud infrastructure for e-learning platforms
+
+## Analyst Reports & Recognition
+
+- [Gartner Magic Quadrant](https://www.tencentcloud.com/analyst): Recognition in Cloud Infrastructure and Platform Services
+
+## Latest News
+
+- [Tencent Cloud News Center](https://www.tencentcloud.com/dynamic/400): Latest announcements, product updates, and press releases
+- [Tencent Cloud Blog](https://www.tencentcloud.com/dynamic/blogs/800): Technical insights and best practices
+
+## Documentation
+
+- [API Reference](https://www.tencentcloud.com/document/api): Complete API documentation for all products
+- [Developer Guide](https://www.tencentcloud.com/document/product): Product documentation and tutorials
+- [Quick Start Guides](https://www.tencentcloud.com/document/product): Step-by-step getting started tutorials
+
+## Contact
+
+- **Sales**: https://www.tencentcloud.com/contact-us
+- **Support**: https://www.tencentcloud.com/contact-us
+- **Console**: https://console.tencentcloud.com
+- **Free Tier**: https://www.tencentcloud.com/act/pro/FreeTier
+
+## Compliance & Trust
+
+- [Compliance Center](https://www.tencentcloud.com/services/compliance): 70+ global certifications including SOC, ISO, PCI-DSS, GDPR
+- [Trust Center](https://www.tencentcloud.com/services/compliance): Security, privacy, and compliance resources
+
+## Partner Network
+
+- [Partner Program](https://www.tencentcloud.com/partners): Join the Tencent Cloud partner ecosystem
+- [Marketplace](https://www.tencentcloud.com/market): Third-party solutions and integrations

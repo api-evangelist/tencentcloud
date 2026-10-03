@@ -1,0 +1,39 @@
+generated: '2026-10-03'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io)
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (postman.com,
+  security/tencentcloud-domain-security.yml, tencent.com, tencentcloud.com) or its accepted GitHub org.'
+packages:
+- name: tencentcloud
+  registry: npm
+  url: https://www.npmjs.com/package/tencentcloud
+  language: JavaScript
+  official: true
+  version: 3.0.1
+  published: '2018-08-02'
+  evidence: metadata names tencent.com
+- name: tencent-cloud
+  registry: npm
+  url: https://www.npmjs.com/package/tencent-cloud
+  language: JavaScript
+  official: false
+  version: 1.0.0
+  published: '2016-12-13'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
+- name: tencent-cloud
+  registry: rubygems
+  url: https://rubygems.org/gems/tencent-cloud
+  language: Ruby
+  official: false
+  version: 0.0.3
+  published: '2021-03-18'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
+- name: tencentcloud
+  registry: crates
+  url: https://crates.io/crates/tencentcloud
+  language: Rust
+  official: false
+  version: 0.3.0
+  published: '2026-04-09'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'

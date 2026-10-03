@@ -1,0 +1,147 @@
+generated: '2026-10-03'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 10
+  own: 3
+  other_domain: 6
+  platform: 1
+  roles:
+  - api
+  - collections
+  - marketing
+  - portal
+  - status
+  - website
+hosts:
+- host: api.tencent.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: tencent.com
+  role: api
+  relation: other-domain
+- host: api.tencentcloud.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: tencentcloud.com
+  role: api
+  relation: own
+- host: buy.cloud.tencent.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Pricing
+  serves: []
+  registrable_domain: tencent.com
+  role: marketing
+  relation: other-domain
+- host: cloud.tencent.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - DeveloperPortal
+  - Documentation
+  - APIReference
+  - GettingStarted
+  - Support
+  - Blog
+  - SignUp
+  serves:
+  - docs
+  registrable_domain: tencent.com
+  role: portal
+  relation: other-domain
+- host: developer.cloud.tencent.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  title: 腾讯云开发者社区-腾讯云
+  status: 200
+  registrable_domain: tencent.com
+  role: portal
+  relation: other-domain
+- host: developer.tencent.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  title: 腾讯工蜂研发管理解决方案
+  status: 200
+  registrable_domain: tencent.com
+  role: portal
+  relation: other-domain
+- host: developers.tencent.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  title: 腾讯工蜂研发管理解决方案
+  status: 200
+  registrable_domain: tencent.com
+  role: portal
+  relation: other-domain
+- host: status.tencentcloud.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - StatusPage
+  serves: []
+  registrable_domain: tencentcloud.com
+  role: status
+  relation: own
+- host: www.postman.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Postman
+  serves:
+  - api-collections
+  vendor: postman
+  registrable_domain: postman.com
+  role: collections
+  relation: platform
+- host: www.tencentcloud.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: tencentcloud.com
+  role: website
+  relation: own

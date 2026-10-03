@@ -1,0 +1,6 @@
+generated: '2026-10-03'
+method: probed
+generator: harvest-llms.py
+source: https://www.tencentcloud.com/llms.txt
+bytes: 5444
+note: saved verbatim; the provider's own document

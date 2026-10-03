@@ -1,0 +1,26 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://cloud.tencent.com/developer/support-plan
+sources:
+- https://cloud.tencent.com/developer/support-plan
+- https://cloud.tencent.com/developer/support-plan-invitation
+- https://developer.cloud.tencent.com/support-plan
+- https://developer.cloud.tencent.com/support-plan-invitation
+name: Tencent Cloud pricing
+audience: business-product
+pricing_basis: flat-platform
+plans:
+- name: 30元代金券
+  price_text: 30 元
+  price: 30
+  description: 云服务器代金券
+- name: 100元代金券
+  price_text: 100 元
+  price: 100
+  description: 云服务器代金券
+- name: 180元代金券
+  price_text: 180 元
+  price: 180
+  description: 云服务器代金券
+docs: https://cloud.tencent.com/developer/support-plan

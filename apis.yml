@@ -1,23 +1,109 @@
 aid: tencentcloud
+
 name: Tencent Cloud
-description: 'Tencent Cloud is a company surfaced via the API Evangelist harvest backlog (source: gartner-mq)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Tencent Cloud provides a comprehensive suite of cloud computing services, including compute, storage, database, AI, and networking
+  solutions for enterprises and developers worldwide. It offers a global infrastructure, advanced security, and integrated AI capabilities, supporting
+  a wide range of industries and enabling digital transformation.
+
 url: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:gartner-mq
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-03 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-03'
+
 modified: '2026-10-03'
+
 tags:
-- Company
-apis: []
+- Cloud
+- Computing
+- AI
+- Infrastructure
+- Services
+- Tencent
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/tencentcloud-plans-pricing.yml
+- type: Spectral
+  url: rules/tencentcloud-rules.yml
+- type: Conformance
+  url: conformance/tencentcloud-conformance.yml
+- type: LLMsTxt
+  url: llms/tencentcloud-llms.txt
+- type: Hosts
+  url: hosts/tencentcloud-hosts.yml
+- type: Vendors
+  url: vendors/tencentcloud-vendors.yml
+- type: SDKs
+  url: packages/tencentcloud-packages.yml
+- type: Packages
+  url: packages/tencentcloud-packages.yml
+- type: StatusPage
+  url: https://status.tencentcloud.com/
+- type: DomainSecurity
+  url: security/tencentcloud-domain-security.yml
 - type: Website
   url: https://www.tencentcloud.com
+- type: DeveloperPortal
+  url: https://cloud.tencent.com/developer
+- type: Documentation
+  url: https://cloud.tencent.com/document/product
+- type: APIReference
+  url: https://cloud.tencent.com/document/api
+- type: GettingStarted
+  url: https://cloud.tencent.com/guide
+- type: Support
+  url: https://cloud.tencent.com/act
+- type: Blog
+  url: https://cloud.tencent.com/blog
+- type: Pricing
+  url: https://buy.cloud.tencent.com/pricing
+- type: SignUp
+  url: https://cloud.tencent.com/register
+- type: Postman
+  url: https://www.postman.com/tencentcloud/workspace
+
+apis:
+- name: Tencent Cloud API
+  description: Public API reference for Tencent Cloud services
+  humanURL: https://cloud.tencent.com/document/api
+  aid: tencentcloud:tencent-cloud-api
+- aid: tencentcloud:tencentcloud-api
+  name: Tencent Cloud API
+  description: 'Tencent Cloud API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-03);
+
+    not the provider''s own document.'
+  humanURL: https://cloud.tencent.com/document/api/436/7778
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/tencentcloud-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found on discovered hosts.
+  evidence:
+  - url: https://api.tencentcloud.com/openapi.json
+    status: 404
+  checked: '2026-10-03'
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
