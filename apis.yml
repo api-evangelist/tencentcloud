@@ -82,17 +82,15 @@ apis:
   description: Public API reference for Tencent Cloud services
   humanURL: https://cloud.tencent.com/document/api
   aid: tencentcloud:tencent-cloud-api
-- aid: tencentcloud:tencentcloud-api
-  name: Tencent Cloud API
-  description: 'Tencent Cloud API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-03);
-
-    not the provider''s own document.'
-  humanURL: https://cloud.tencent.com/document/api/436/7778
+- aid: tencentcloud:tencentcloud-exampleobject-api
+  name: Tencent Cloud Exampleobject API
+  description: The Exampleobject API from Tencent Cloud — 1 operation(s) for exampleobject.
+  humanURL: https://cloud.tencent.com/document/api
+  tags:
+  - Exampleobject
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/tencentcloud-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/tencentcloud-exampleobject-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
