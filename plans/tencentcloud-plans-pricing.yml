@@ -24,3 +24,28 @@ plans:
   price: 180
   description: 云服务器代金券
 docs: https://cloud.tencent.com/developer/support-plan
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: 30元代金券
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: 100元代金券
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: 180元代金券
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
