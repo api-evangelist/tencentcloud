@@ -14,3 +14,30 @@
   relationship: system-coverage
   status: not-a-workflow
   arazzo: null
+- slug: tencentcloud-finops-foundation-focus
+  label: FinOps Foundation (FOCUS)
+  partner: finops-foundation
+  partner_name: FinOps Foundation (FOCUS)
+  category: FOCUS billing data
+  type: register
+  channel: standard-directory
+  evidence: https://focus.finops.org/docs/implementation/data-generators/tencent-cloud/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: FOCUS data generators (focus.finops.org/data-generators)
+    spec_file: null
+    standard: FOCUS (FinOps Open Cost and Usage Specification)
+    role: focus-data-generator
+    registered_name: Tencent Cloud
+    matched_domain: tencentcloud.com
+    matched_by: domain
+    focus_version_supported: '1.0'
+    page_domains:
+      tencentcloud.com: 5
+      tencent-cloud.com: 1
+    signal_note: 'participation only: the version is context, never read'
+    detected_by: sweep-cloud-native.py
+    detected: '2026-10-15'
+  status: not-a-workflow
+  arazzo: null
