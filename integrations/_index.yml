@@ -38,6 +38,19 @@
       tencent-cloud.com: 1
     signal_note: 'participation only: the version is context, never read'
     detected_by: sweep-cloud-native.py
-    detected: '2026-10-15'
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: tencentcloud-zendesk-own
+  label: Zendesk (own)
+  partner: zendesk
+  partner_name: Zendesk (own)
+  category: Messaging
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.zendesk.com/marketplace/apps/support/859533/tencent-cloud-im/
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null

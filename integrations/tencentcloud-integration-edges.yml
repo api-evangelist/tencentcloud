@@ -41,9 +41,26 @@ edges:
       tencent-cloud.com: 1
     signal_note: 'participation only: the version is context, never read'
     detected_by: sweep-cloud-native.py
-    detected: '2026-10-15'
+    detected: '2026-10-19'
   detected_by: sweep-cloud-native.py
   first_seen: '2026-10-15'
+- partner_name: Zendesk (own)
+  partner: zendesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.zendesk.com/marketplace/apps/support/859533/tencent-cloud-im/
+  mirror_of: zendesk/integrations/zendesk-integration-edges.yml
+  apps:
+  - Tencent Cloud IM
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: Messaging
 generated: '2026-10-15'
 method: searched
 checked:
@@ -51,6 +68,7 @@ checked:
 - https://github.com/cncf/k8s-conformance
 - https://github.com/cncf/landscape
 - https://github.com/run-llama/llama_index/tree/main/llama-index-integrations
+- zendesk/integrations/zendesk-integration-edges.yml
 source:
 - https://github.com/cncf/landscape
 - https://github.com/cncf/k8s-conformance
