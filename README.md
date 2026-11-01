@@ -64,5 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tencent Cloud is a company surfaced via the API Evangelist harvest backlog (source: gartner-mq) and added to the network as a stub for full-pipeline profiling.
-- https://www.tencentcloud.com
+Tencent Cloud provides a comprehensive suite of cloud computing services, including compute, storage, database, AI, and networking solutions for enterprises and developers worldwide. It offers a global infrastructure, advanced security, and integrated AI capabilities, supporting a wide range of industries and enabling digital transformation.
+
+**Areas:** Cloud · Computing · Artificial Intelligence · Infrastructure · Services · Tencent
+
+## Tencent Cloud on APIs.io
+
+Everything profiled for Tencent Cloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tencentcloud/](https://apis.io/providers/tencentcloud/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Tencent Cloud API](https://apis.io/apis/tencentcloud/tencent-cloud-api/) — Public API reference for Tencent Cloud services
+- [Tencent Cloud Exampleobject API](https://apis.io/apis/tencentcloud/tencentcloud-exampleobject-api/) — The Exampleobject API from Tencent Cloud — 1 operation(s) for exampleobject.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [tencentcloud-mcp.yml](https://apis.io/servers/tencentcloud/tencentcloud-mcp-yml/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Tencent Cloud API Rules](https://apis.io/rules/tencentcloud/tencentcloud-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tencentcloud Domain Security](https://apis.io/security/tencentcloud/tencentcloud-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tencentcloud Plans Pricing](https://apis.io/plans/tencentcloud/tencentcloud-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tencentcloud.com)
+- [Documentation](https://cloud.tencent.com/document/product)
+- [Getting started](https://cloud.tencent.com/guide)
+- [API reference](https://cloud.tencent.com/document/api)
+- [Pricing](https://buy.cloud.tencent.com/pricing)
+- [Sign up](https://cloud.tencent.com/register)
+- [Support](https://cloud.tencent.com/act)
+- [Blog](https://cloud.tencent.com/blog)
+- [Status](https://status.tencentcloud.com/)
+
+## API Evangelist rating
+
+**Kin Score 33.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 9.4 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 55.3 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tencentcloud/](https://apis.io/providers/tencentcloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tencent Cloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tencentcloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
